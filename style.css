@@ -1,8 +1,44 @@
-html{
-  height: 100%;
+html{top: 0;
+  bottom: auto;
 background-image: linear-gradient(to top right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-/* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
+}
+
+h1{
+  color: white;
+  font-style: italic;
+  font-size: 90px;
+  text-align: center;
+  background-image:linear-gradient(to bottom, #3a93b9, #aa8fd8);
+  border-radius: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#name{
+  font-size: 20px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.description{
+  padding-top: 50px;
+  text-align: justify;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 25px;
+}
+
+footer{
+  padding: 10px;
+  padding-left: 35px;
+  margin-top: 25%;
+  background-color: rgb(112, 95, 180);
+  font-size: 17px;
+  bottom: 0;
+  right;
+}
+
+a{
+  color: pink;
+  font-style: oblique;
 }
